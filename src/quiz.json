@@ -1,0 +1,34 @@
+{
+    "What is responsible for expanding the '*' in the command `./script.py *.txt`?":[
+        "shell",
+        "the shell",
+        "sh"
+    ],
+    "Who is the coolest teacher?":[
+        "bui",
+        "pbui",
+        "ramzi"
+    ],
+    "Given object file `hello.o`, what command would you run to create a static executable?":[
+        "gcc hello.o -static",
+        "g++ hello.o -static"
+    ],
+    "Given object file `hello.o`, what command would you run to create a dynamic executable?":[
+        "gcc hello.o",
+        "g++ hello.o"
+    ],
+    "How would you view all the system calls made by `ls`?":[
+        "strace ls"
+    ],
+    "What program would you use to detect memory leaks in an executable?":[
+        "valgrind"
+    ],
+    "How would you change the mode of `hello.txt` from rwxrw-rw- to rwxrwxrwx?":[
+        "chmod og+x hello.txt",
+        "chmod go+x hello.txt",
+        "chmod 777 hello.txt"
+    ],
+    "What command would you run to kill all processes named `fury`?":[
+        "killall fury"
+    ]
+}

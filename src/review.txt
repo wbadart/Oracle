@@ -1,0 +1,6 @@
+First, the three tenets of the Unix philosophy:  1. Programs do one thing and one thing well.  2. Programs work together.  3. Programs work with streams of text, a universal interface.
+Since we're just working in text, filters are a big deal. Filters read input, do operations, then write output.
+To interact with all this Unix goodness, we can use a shell (a command line interpreter). A shell script is nothing but a series of commands for the shell.
+When using variables in your shell script, remember when to use the '$'. X=1 #no spaces is a valid assignment, and y=$X is too
+Don't forget how to capture the STDOUT of a command: `foo -bar` or $(foo -bar)
+That's all for now! Come back in a little bit for more review!
